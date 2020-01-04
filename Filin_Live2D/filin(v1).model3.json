@@ -1,0 +1,79 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Filin(v1).moc3",
+		"Textures": [
+			"Filin(v1).1024/texture_00.png"
+		],
+		"DisplayInfo": "Filin(v1).cdi3.json",
+		"Expressions": [
+			{
+				"Name": "Smile.exp3.json",
+				"File": "expressions_json/Smile.exp3.json"
+			},
+			{
+				"Name": "phew.exp3.json",
+				"File": "expressions_json/phew.exp3.json"
+			},
+			{
+				"Name": "sad.exp3.json",
+				"File": "expressions_json/sad.exp3.json"
+			},
+			{
+				"Name": "shy.exp3.json",
+				"File": "expressions_json/shy.exp3.json"
+			},
+			{
+				"Name": "surprise.exp3.json",
+				"File": "expressions_json/surprise.exp3.json"
+			},
+			{
+				"Name": "troubled.exp3.json",
+				"File": "expressions_json/troubled.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "motion_json/idle_1.motion3.json"
+				},
+				{
+					"File": "motion_json/m2.motion3.json"
+				},
+				{
+					"File": "motion_json/m3.motion3.json"
+				},
+				{
+					"File": "motion_json/m4.motion3.json"
+				},
+				{
+					"File": "motion_json/m5.motion3.json"
+				},
+				{
+					"File": "motion_json/m6.motion3.json"
+				},
+				{
+					"File": "motion_json/m7.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}
